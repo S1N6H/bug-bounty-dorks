@@ -23,32 +23,59 @@
 ## 📜 The Dorks
 
 inurl:/security-policy "bounty" ext:pdf
+
 intext:"vulnerability disclosure program" site:gov.*
+
 inurl:/.well-known/security ext:txt "contact" -hackerone -bugcrowd
+
 site:*.*.* inurl:/responsible-disclosure "swag"
+
 "security@example.com" inurl:security ext:txt -github
+
 site:*.uk intext:"security reward" "£"
+
 site:*.in "responsible disclosure" ("₹" | "INR")
+
 site:*.br /seguranca recompensa
+
 site:*.de "bug-bounty-programm" euro
+
 site:*.au "security vulnerability" AUD
+
 "powered by hackerone" -site:hackerone.com
+
 inurl:bug-bounty-platform "submit report"
+
 "private program" inurl:security researcher
+
 site:*.edu "vulnerability disclosure" hall-of-fame
+
 site:*.bank intext:"security report" compensation
+
 "cryptocurrency" inurl:bug-bounty "BTC"
+
 intext:"minimum reward" vulnerability -site:responsibledisclosure.*
+
 inurl:bounty intext:("€500+" | "$1000+")
+
 intext:"gift card" "security researcher"
+
 "we value security researchers" inurl:acknowledgements
+
 intext:"thank you for your report" bounty
+
 inurl:/security ext:aspx "report a vulnerability"
+
 intitle:"vulnerability management" intext:reward
+
 filetype:md "disclosure policy" swag
+
 inurl:coordinated-vulnerability-disclosure "compensation"
+
 "submit flaw report" inurl:trust
+
 intext:"responsible disclosure" -inurl:legal -inurl:contact
+
 site:*.*.nl "beloning" -site:government.nl
 
 
