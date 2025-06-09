@@ -26,3 +26,24 @@ inurl:coordinated-vulnerability-disclosure "compensation"
 "submit flaw report" inurl:trust
 intext:"responsible disclosure" -inurl:legal -inurl:contact
 site:*.*.nl "beloning" -site:government.nl
+inurl:/vulnerability-disclosure ext:pdf
+intitle:"Coordinated Vulnerability Disclosure" site:gov.*
+intext:"Security Acknowledgement" inurl:trust
+filetype:md "bug_bounty_policy"
+inurl:security-guidelines "monetary rewards"
+site:healthcare.* "security report" bounty
+site:insurance.* inurl:security-disclosure
+site:bank.* "vulnerability compensation"
+site:ecommerce.* intext:"security researcher reward"
+"submit flaw report" platform:wordpress
+inurl:security.md "bug_report"
+"cloud vulnerability program" site:azure.com
+inurl:api/security ext:json
+site:*.jp 脆弱性報告 報酬
+"private security initiative" inurl:/.well-known
+intitle:"Confidential Disclosure Portal"
+"undisclosed program" whitehat
+site:*.kr "보안 취약점 신고" 현상금
+intitle:"VDP Framework" -template
+intext:CVE-ID "bounty eligibility"
+filetype:yaml security.disclosure
